@@ -38,3 +38,8 @@ const produk = [
 const namaProduk = produk.map((item) => item.nama);
 console.log(namaProduk);
 console.log(produk);
+
+//1. console.log setiap nama produk
+//2. buat array baru yang berisikan harga dengan dikson 10%
+//3. hitung total harga semua produk
+
