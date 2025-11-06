@@ -35,11 +35,13 @@ const produk = [
   { id: 3, nama: "Keyboard", harga: 300000 },
 ];
 
-const namaProduk = produk.map((item) => item.nama);
-console.log(namaProduk);
-console.log(produk);
+// const namaProduk = produk.map((item) => item.nama);
+// console.log(namaProduk);
+// console.log(produk);
 
 //1. console.log setiap nama produk
 //2. buat array baru yang berisikan harga dengan dikson 10%
 //3. hitung total harga semua produk
 
+const totalHarga = produk.reduce((sum, item) => sum + item.harga, 0);
+console.log(totalHarga);

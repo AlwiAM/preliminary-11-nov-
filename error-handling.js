@@ -42,3 +42,15 @@ try {
 } catch (error) {
   console.log(error.message);
 }
+
+//buatkan object sistemMahasiswa, dengan property
+// data -> menyimpan data mahasiwa
+// method tambah(nim, nama, ipk)
+// cariBerdasarkanNama(nama)
+// hitungRataIpk() -> menghitung keseluruhan rata2 mahasiswa
+//terapkan validasi pada method diatas
+
+
+
+
+
