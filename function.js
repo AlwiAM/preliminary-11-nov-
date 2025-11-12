@@ -34,3 +34,14 @@ function tambahMahasiwa(nim, nama, daftarMahasiswa) {
     throw new Error(`mahasiswa dengan nim ${nim} sudah ada`);
   }
 }
+//
+
+
+
+// Sistem Manajemen Mahasiswa (Sederhana)
+// Requirement: Buat object sistemMahasiswa dengan:
+// 1.Property data (array kosong)
+// 2.Method tambah(nim, nama, ipk) → Validasi NIM duplikat
+// 3.Method cariByNama(nama) → Return array mahasiswa yang namanya mengandung keyword
+// 4.Method hitungRataIPK() → Return rata-rata IPK semua mahasiswa
+//terapkan eror handling dan validasi
